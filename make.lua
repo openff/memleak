@@ -1,0 +1,1 @@
+os.execute("gcc -o m3 memleak3.c -g  -rdynamic  -no-pie")
