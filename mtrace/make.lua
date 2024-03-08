@@ -1,2 +1,5 @@
 os.execute("gcc -o m5 memleak5.c -g -lmcheck  -rdynamic  -no-pie -Wl,-rpath=./test.log")
 os.execute("g++ -std=c++11 -o logri mtracegori.cc -g")
+os.execute("gcc -o imitate  memleak4.c -g -rdynamic  -no-pie")
+os.execute("gcc -o m2 memleak2.c -g  -rdynamic  -no-pie")
+os.execute("gcc -o m3 memleak3.c -g  -rdynamic  -no-pie")
